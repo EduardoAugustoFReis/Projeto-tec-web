@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="./script.js" defer></script>
+
+</head>
+<body>
+
+  <header>
+    <h1>Salve seus contatos</h1>
+    <ul>
+      <li><a href="./contatos.html">Contatos</a></li>
+    </ul>
+  </header>
+
+  <main id="root">
+    <h2>Cadastre seus contatos</h2>
+
+    <form action="./contatos.html" method="POST">
+      <label for="nome">Nome do contato:</label>
+      <input type="text" id="nome" name="nome" placeholder="Ex: Daniel">
+
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="telefone" placeholder="Ex: (61) 99999-9999">
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="Ex: xxx@xxx.com">
+
+      <input type="submit" class="button-submit" value="Salvar">
+
+    </form>
+
+  </main>
+
+  <footer>
+    <p>Copyright 2024</p>
+  </footer>
+
+</body>
+</html>
